@@ -1,0 +1,7 @@
+.panelCont { display: flex;  }
+
+.panel{height: 45vw;flex: 0.5;  background-size: auto 100%; background-position: center; border-radius: 50px; margin: 5px; position: relative; padding: 5px; transition: 0.9s ease-in;}
+.panel h1 { position: absolute; font-size: 16px; text-align: left; bottom: 60px; color: #fff; opacity: 0;}
+
+.panelActive {flex: 5;}
+.panelActive h1 { opacity: 1;}
